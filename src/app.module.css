@@ -30,6 +30,9 @@
 .home{
   margin-right:25px;
 }
+.home,.about{
+  text-decoration: none;
+}
 
 /* Detail */
 .areaSpan, .priceSpan, .location{

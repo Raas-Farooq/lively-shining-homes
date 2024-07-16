@@ -6,7 +6,7 @@ import Search from './searchHome';
 
 
 function App() {
-
+  console.log("App js Runs ")
   return (
     <div className={style.App}>
       <Navbar />
