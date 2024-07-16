@@ -3,6 +3,7 @@ import React,{useContext,useState} from "react";
 const appContext = React.createContext();
 
 const ContextFun = ({children}) => {
+    
     const [searchInput, setSearchInput] = useState('');
     const getSearchInput = (input) => {
         setSearchInput(input);

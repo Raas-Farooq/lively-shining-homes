@@ -3,15 +3,17 @@ import HousesRender from './HousesRender';
 import style from './app.module.css';
 import Navbar from './navbar';
 import Search from './searchHome';
-
+import ShiningHouses from './shiningHouseData';
+import { useGlobalContext } from './myContext';
 
 function App() {
-  console.log("App js Runs ")
+  const {searchInput} = useGlobalContext();
+  
   return (
     <div className={style.App}>
       <Navbar />
       <Search />
-      <HousesRender />
+      
       
     </div>
   );

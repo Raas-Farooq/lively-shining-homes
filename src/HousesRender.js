@@ -1,19 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {LazyLoadImage} from 'react-lazy-load-image-component';
-import ShiningHouses from './shiningHouseData';
 import classes from './app.module.css';
 import { useGlobalContext } from './myContext';
 
 
+
 const HousesRender = (props) => {
+
+
   const {searchInput } = useGlobalContext();
-  console.log('searchInput: ', searchInput);
+  const [houses, setHouses] = useState([]);
+
+
   return (
     <div>
       
-      {ShiningHouses.length > 0 ? (
+      {props.data.length > 0 ? (
         <ul className={classes.homeCards} >
-        {ShiningHouses.map((home, index) => (
+        {props.data.map((home, index) => (
           <li key={index} className={classes.singleCard} style={{ marginBottom: '20px', border: '1px solid #ddd', padding: '10px' }}>
             <h3> </h3>
             {home.image && (
@@ -24,7 +28,9 @@ const HousesRender = (props) => {
                 style={{ width: '280px', height: '250px' }}
               />
             )}
+             
             <p> <span className={classes.priceSpan}> Price: </span> ${home.price}</p>
+            <p className={classes.location}>Location: {home.location}</p> 
             <button className={classes.detail}> Detail </button>
           </li>
         ))}

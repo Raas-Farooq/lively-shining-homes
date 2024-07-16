@@ -15,41 +15,41 @@ const ShiningHouses = [
     },
     {
         id:1,
-        name: "Luxury Villa",
-        price: '2.85 crore',
+        name: "Nice Villa",
+        price: '2.5 crore',
         status: 'for Sale',
-        area: '272 Sq.Yd.',
-        location: 'Karachi',
-        image:"/images/karachi2.webp"
+        area: '375 Sq.Yd.',
+        location: 'lahore',
+        image:"/images/lahore4.webp"
     },
     {
         id:2,
-        name: "Outside Super House",
-        price: '2.9 crore',
+        name:"Jannat House",
+        price: '6.5 crore',
         status: 'for Sale',
-        area: '272 Sq.Yd.',
-        location: 'Karachi',
-        image:"/images/karachi3.webp"
+        area: '500 Sq.Yd.',
+        location: 'islamabad',
+        image:"/images/islamabad7.webp"
     },
+    
     {
         id:3,
-        name: "Smart Villa",
-        price: '1.71 crore',
+        name:"Modern Apartment",
+        price: '5.1 crore',
         status: 'for Sale',
-        area: '200 Sq.Yd.',
-        location: 'Karachi',
-        image:"/images/karachi4.webp"
+        area: '380 Sq.Yd.',
+        location: 'islamabad',
+        image:"/images/islamabad2.webp"
     },
     {
         id:4,
-        name: "Shining Apartment",
-        price: '1.3 crore',
+        name: "Designing Villa",
+        price: '4 crore',
         status: 'for Sale',
-        area: '125 Sq.Yd.',
-        location: 'Karachi',
-        image:"/images/karachi5.webp"
-    }
-    ,
+        area: '350 Sq.Yd.',
+        location: 'lahore',
+        image:"/images/lahore2.webp"
+    },
     {
         id:5,
         name: "Classic Home",
@@ -61,12 +61,12 @@ const ShiningHouses = [
     },
     {
         id:6,
-        name: "Paradise Kothi",
-        price: '4.1 crore',
+        name: "Unique House",
+        price: '3.2 crore',
         status: 'for Sale',
-        area: '500 Sq.Yd.',
-        location: 'Karachi',
-        image:"/images/karachi7.webp"
+        area: '300 Sq.Yd.',
+        location: 'lahore',
+        image:"/images/lahore6.webp"
     },
     {
         id:7,
@@ -85,16 +85,17 @@ const ShiningHouses = [
         area: '300 Sq.Yd.',
         location: 'Lahore',
         image:"/images/lahore1.webp"
-    },
-    {
+    }
+    ,{
         id:9,
-        name: "Designing Villa",
-        price: '4 crore',
+        name:"Stylish Apartment",
+        price: '3.5 crore',
         status: 'for Sale',
-        area: '350 Sq.Yd.',
-        location: 'lahore',
-        image:"/images/lahore2.webp"
+        area: '270 Sq.Yd.',
+        location: 'islamabad',
+        image:"/images/islamabad5.webp"
     },
+    
     {
         id:10,
         name: "Super Luxury",
@@ -106,13 +107,14 @@ const ShiningHouses = [
     },
     {
         id:11,
-        name: "Nice Villa",
-        price: '2.5 crore',
+        name: "Luxury Villa",
+        price: '2.85 crore',
         status: 'for Sale',
-        area: '375 Sq.Yd.',
-        location: 'lahore',
-        image:"/images/lahore4.webp"
+        area: '272 Sq.Yd.',
+        location: 'Karachi',
+        image:"/images/karachi2.webp"
     },
+    
     {
         id:13,
         name: "Vadera Bangla",
@@ -124,12 +126,12 @@ const ShiningHouses = [
     },
     {
         id:14,
-        name: "Unique House",
-        price: '3.2 crore',
+        name: "Heaven Home",
+        price: '1.71 crore',
         status: 'for Sale',
-        area: '300 Sq.Yd.',
-        location: 'lahore',
-        image:"/images/lahore6.webp"
+        area: '200 Sq.Yd.',
+        location: 'Karachi',
+        image:"/images/karachi5.webp"
     },
     {
         id:15,
@@ -160,13 +162,14 @@ const ShiningHouses = [
     },
     {
         id:18,
-        name:"Modern Apartment",
-        price: '5.1 crore',
+        name: "Smart Villa",
+        price: '1.71 crore',
         status: 'for Sale',
-        area: '380 Sq.Yd.',
-        location: 'islamabad',
-        image:"/images/islamabad2.webp"
+        area: '200 Sq.Yd.',
+        location: 'Karachi',
+        image:"/images/karachi4.webp"
     },
+    
     {
         id:19,
         name:"Luxury Super",
@@ -187,13 +190,14 @@ const ShiningHouses = [
     },
     {
         id:21,
-        name:"Stylish Apartment",
-        price: '3.5 crore',
+        name: "Paradise Kothi",
+        price: '4.1 crore',
         status: 'for Sale',
-        area: '270 Sq.Yd.',
-        location: 'islamabad',
-        image:"/images/islamabad5.webp"
+        area: '500 Sq.Yd.',
+        location: 'Karachi',
+        image:"/images/karachi7.webp"
     },
+    
     {
         id:22,
         name:"Mega Villa",
@@ -205,12 +209,12 @@ const ShiningHouses = [
     },
     {
         id:23,
-        name:"Jannat House",
-        price: '6.5 crore',
+        name: "Outside Super House",
+        price: '2.9 crore',
         status: 'for Sale',
-        area: '500 Sq.Yd.',
-        location: 'islamabad',
-        image:"/images/islamabad7.webp"
+        area: '272 Sq.Yd.',
+        location: 'Karachi',
+        image:"/images/karachi3.webp"
     },
     {
         id:24,
