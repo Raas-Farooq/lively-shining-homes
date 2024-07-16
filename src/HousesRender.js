@@ -1,18 +1,21 @@
 import React from 'react';
 import {LazyLoadImage} from 'react-lazy-load-image-component';
-import ShiningHouses from './shiningHouse';
+import ShiningHouses from './shiningHouseData';
 import classes from './app.module.css';
+import { useGlobalContext } from './myContext';
 
-const HousesRender = () => {
 
+const HousesRender = (props) => {
+  const {searchInput } = useGlobalContext();
+  console.log('searchInput: ', searchInput);
   return (
     <div>
-      <h2>DREAM HOUSES</h2>
+      
       {ShiningHouses.length > 0 ? (
-        <ul style={{ listStyle: 'none', padding: 0 , display:'flex', flexWrap:"wrap", justifyContent:"center"}}>
+        <ul className={classes.homeCards} >
         {ShiningHouses.map((home, index) => (
-          <li key={index} style={{ marginBottom: '20px', border: '1px solid #ddd', padding: '10px' }}>
-            <h3> Home {index + 1}</h3>
+          <li key={index} className={classes.singleCard} style={{ marginBottom: '20px', border: '1px solid #ddd', padding: '10px' }}>
+            <h3> </h3>
             {home.image && (
               <LazyLoadImage 
                 src={home.image} 
