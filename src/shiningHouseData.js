@@ -11,16 +11,20 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '500 Sq.Yd.',
         location: 'Karachi',
+        address:'Nagori Stop Super Highway, 9KM from Toll Plaza, Karachi - Pakistan',
+        UAN:"+92 21 38771555",
         image:"/images/karachi1.webp"
     },
     {
         id:1,
-        name: "Nice Villa",
+        name:"Irish Apartment",
         price: '2.5 crore',
         status: 'for Sale',
-        area: '375 Sq.Yd.',
+        area: '240 Sq.Yd.',
         location: 'lahore',
-        image:"/images/lahore4.webp"
+        address:'Maraka, Iqbal Town, Bahria Town Lahore',
+        UAN:'+92-42-111-111-040. +92-42-37189611-14.',
+        image:"/images/lahore8.webp"
     },
     {
         id:2,
@@ -29,6 +33,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '500 Sq.Yd.',
         location: 'islamabad',
+        address:"Central Business District, Phase 8, Bahria Town, Rawalpindi.",
+        UAN:"+92 335 800 5555",
         image:"/images/islamabad7.webp"
     },
     
@@ -39,6 +45,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '380 Sq.Yd.',
         location: 'islamabad',
+        address:"Central Business District, Phase 8, Bahria Town, Rawalpindi.",
+        UAN:"+92 335 800 5555",
         image:"/images/islamabad2.webp"
     },
     {
@@ -48,6 +56,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '350 Sq.Yd.',
         location: 'lahore',
+        address:'Maraka, Iqbal Town, Bahria Town Lahore',
+        UAN:'+92-42-111-111-040. +92-42-37189611-14.',
         image:"/images/lahore2.webp"
     },
     {
@@ -57,6 +67,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '272 Sq.Yd.',
         location: 'Karachi',
+        address:'Nagori Stop Super Highway, 9KM from Toll Plaza, Karachi - Pakistan',
+        UAN:"+92 21 38771555",
         image:"/images/karachi6.webp"
     },
     {
@@ -66,6 +78,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '300 Sq.Yd.',
         location: 'lahore',
+        address:'Maraka, Iqbal Town, Bahria Town Lahore',
+        UAN:'+92-42-111-111-040. +92-42-37189611-14.',
         image:"/images/lahore6.webp"
     },
     {
@@ -75,6 +89,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '275 Sq.Yd.',
         location: 'Karachi',
+        address:'Nagori Stop Super Highway, 9KM from Toll Plaza, Karachi - Pakistan',
+        UAN:"+92 21 38771555",
         image:"/images/karachi8.webp"
     },
     {
@@ -84,6 +100,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '300 Sq.Yd.',
         location: 'Lahore',
+        address:'Maraka, Iqbal Town, Bahria Town Lahore',
+        UAN:'+92-42-111-111-040. +92-42-37189611-14.',
         image:"/images/lahore1.webp"
     }
     ,{
@@ -93,6 +111,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '270 Sq.Yd.',
         location: 'islamabad',
+        address:"Central Business District, Phase 8, Bahria Town, Rawalpindi.",
+        UAN:"+92 335 800 5555",
         image:"/images/islamabad5.webp"
     },
     
@@ -103,6 +123,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '250 Sq.Yd.',
         location: 'lahore',
+        address:'Maraka, Iqbal Town, Bahria Town Lahore',
+        UAN:'+92-42-111-111-040. +92-42-37189611-14.',
         image:"/images/lahore3.webp"
     },
     {
@@ -112,6 +134,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '272 Sq.Yd.',
         location: 'Karachi',
+        address:'Nagori Stop Super Highway, 9KM from Toll Plaza, Karachi - Pakistan',
+        UAN:"+92 21 38771555",
         image:"/images/karachi2.webp"
     },
     
@@ -122,6 +146,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '300 Sq.Yd.',
         location: 'lahore',
+        address:'Maraka, Iqbal Town, Bahria Town Lahore',
+        UAN:'+92-42-111-111-040. +92-42-37189611-14.',
         image:"/images/lahore5.webp"
     },
     {
@@ -131,6 +157,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '200 Sq.Yd.',
         location: 'Karachi',
+        address:'Nagori Stop Super Highway, 9KM from Toll Plaza, Karachi - Pakistan',
+        UAN:"+92 21 38771555",
         image:"/images/karachi5.webp"
     },
     {
@@ -140,16 +168,20 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '320 Sq.Yd.',
         location: 'lahore',
+        address:'Maraka, Iqbal Town, Bahria Town Lahore',
+        UAN:'+92-42-111-111-040. +92-42-37189611-14.',
         image:"/images/lahore7.webp"
     },
     {
         id:16,
-        name:"Irish Apartment",
+        name: "Nice Villa",
         price: '2.5 crore',
         status: 'for Sale',
-        area: '240 Sq.Yd.',
+        area: '375 Sq.Yd.',
         location: 'lahore',
-        image:"/images/lahore8.webp"
+        address:'Maraka, Iqbal Town, Bahria Town Lahore',
+        UAN:'+92-42-111-111-040. +92-42-37189611-14.',
+        image:"/images/lahore4.webp"
     },
     {
         id:17,
@@ -158,6 +190,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '350 Sq.Yd.',
         location: 'islamabad',
+        address:"Central Business District, Phase 8, Bahria Town, Rawalpindi.",
+        UAN:"+92 335 800 5555",
         image:"/images/islamabad1.webp"
     },
     {
@@ -167,6 +201,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '200 Sq.Yd.',
         location: 'Karachi',
+        address:'Nagori Stop Super Highway, 9KM from Toll Plaza, Karachi - Pakistan',
+        UAN:"+92 21 38771555",
         image:"/images/karachi4.webp"
     },
     
@@ -177,6 +213,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '340 Sq.Yd.',
         location: 'islamabad',
+        address:"Central Business District, Phase 8, Bahria Town, Rawalpindi.",
+        UAN:"+92 335 800 5555",
         image:"/images/islamabad3.webp"
     },
     {
@@ -186,6 +224,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '420 Sq.Yd.',
         location: 'islamabad',
+        address:"Central Business District, Phase 8, Bahria Town, Rawalpindi.",
+        UAN:"+92 335 800 5555",
         image:"/images/islamabad4.webp"
     },
     {
@@ -195,6 +235,9 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '500 Sq.Yd.',
         location: 'Karachi',
+        address:'Nagori Stop Super Highway, 9KM from Toll Plaza, Karachi - Pakistan',
+        UAN:"+92 21 38771555",
+
         image:"/images/karachi7.webp"
     },
     
@@ -205,6 +248,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '600 Sq.Yd.',
         location: 'islamabad',
+        address:"Central Business District, Phase 8, Bahria Town, Rawalpindi.",
+        UAN:"+92 335 800 5555",
         image:"/images/islamabad6.webp"
     },
     {
@@ -214,6 +259,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '272 Sq.Yd.',
         location: 'Karachi',
+        address:'Nagori Stop Super Highway, 9KM from Toll Plaza, Karachi - Pakistan',
+        UAN:"+92 21 38771555",
         image:"/images/karachi3.webp"
     },
     {
@@ -223,6 +270,8 @@ const ShiningHouses = [
         status: 'for Sale',
         area: '400 Sq.Yd.',
         location: 'islamabad',
+        address:"Central Business District, Phase 8, Bahria Town, Rawalpindi.",
+        UAN:"+92 335 800 5555",
         image:"/images/islamabad8.webp"
     }
 ] 

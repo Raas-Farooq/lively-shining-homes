@@ -2,7 +2,8 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
-}.App {
+}
+.App {
   margin:0;
   padding: 0;
 }
@@ -35,8 +36,34 @@
 }
 
 /* Detail */
+.detailContainer{
+  position:relative
+}
 .areaSpan, .priceSpan, .location{
   font-weight: bolder;
+}
+.detailCard{
+  position: relative;
+  /* margin-top:50px; */
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  /* box-shadow:0 2px 5px;
+  width:300px; */
+}
+.detailCardParent{
+  display:flex;
+  justify-content:center;
+}
+.detailPrice,.detailArea,.detailStatus,.detailLocation,.detailAddress,.detailPhone{
+  background-color:aqua;
+  font-weight:lighter;
+  padding:5px;
+}
+.homeBtnDetail{
+ position:absolute;
+ right:20px;
 }
 
 
@@ -44,6 +71,7 @@
 
 .searchContainer{
   margin:20px;
+  margin-bottom:20px;
   text-align: center;
   width:100%;
 }
@@ -64,8 +92,11 @@
   flex-wrap:wrap;
   justify-content:center;
   gap:20px;
+  margin-top:20px
   
 }
 .singleCard{
   box-shadow:0 2px 5px;
 }
+
+

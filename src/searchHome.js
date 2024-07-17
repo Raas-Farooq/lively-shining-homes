@@ -7,10 +7,8 @@ import ShiningHouses from "./shiningHouseData.js";
 
 const Search = () => {
 
-    const {searchInput,getSearchInput} = useGlobalContext();
-    const [housesData, setHouseData] = useState([]);
+    const {searchInput,getSearchInput, handleHousesData, housesData} = useGlobalContext();
 
-    console.log("houses Data: ", housesData)
     const handleTextInput = (e) => {
         e.preventDefault();
         getSearchInput(e.target.value)
@@ -18,8 +16,10 @@ const Search = () => {
 
     useEffect(() => {
         const houses = ShiningHouses.filter(house => house.location.toLowerCase().toString().includes(searchInput.toLowerCase().toString()));
-        houses? setHouseData(houses) : setHouseData(ShiningHouses)
+        houses? handleHousesData(houses) : handleHousesData(ShiningHouses)
     }, [searchInput])
+
+
     return (
         <div className={searchStyles.searchContainer}>
             <form className={searchStyles.form}>

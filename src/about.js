@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {Link} from 'react-router-dom'
+import { useGlobalContext } from "./myContext";
+
 
 function About(){
+    
 
     return (
         <div style={{textAlign:"center"}}>
+            
             <div>
-                <h2> About</h2>
+                <h2> About </h2>
                 <button className="btn btn-warning" style={{position:"absolute", right:"10px", top:"10px"}}><Link to="/" style={{textDecoration:"none"}}> Home </Link></button>
             </div>
             
