@@ -29,7 +29,7 @@ const ContextFun = ({children}) => {
         getSearchInput,
         handleHomeId,
         homeId,
-        searchInput
+        searchInput,
     }}>{children}</appContext.Provider>
 }
 

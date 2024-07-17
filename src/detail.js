@@ -5,19 +5,37 @@ import ShiningHouses from "./shiningHouseData";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import myStyles from './app.module.css';
 
+
 function Detail(){
 
     const {homeId, housesData} = useGlobalContext();
     const [houseDetail, setHouseDetail] = useState('');
+    const [error,  setError] = useState(null);
+    
 
 
     useEffect(() => {
-        const clickedHouse = ShiningHouses.filter(house => house.id === homeId);
-        console.log("clickedHouse :", clickedHouse)
+        try{
+            const clickedHouse = ShiningHouses.filter(house => house.id === homeId);
+        
+        if(clickedHouse.length === 0){
+            throw new Error('House not found');
+            
+        }
         setHouseDetail(clickedHouse);
-
+    }
+        catch(error){ 
+            
+            setError(true);
+            console.log("No House Data Avaiable.. Plz Try Again")
+        }
+        
+        
         console.log("houseDetail: ", houseDetail);
     },[homeId])
+
+    if (error) return <div className={myStyles.error}> <h2>Something is Causing Issue. Plz Try Again</h2> <button className="btn btn-warning"><Link to="/">BackHome</Link></button></div>
+
 
     return(
         <div className={myStyles.detailContainer}>
@@ -46,7 +64,9 @@ function Detail(){
                 )}
             </ul>
             ):
-            <h3>... Loading</h3>
+            <>
+                <h2> ...Loading</h2>
+            </>
          }
          </div>
          
